@@ -1,6 +1,7 @@
 using Morsel
 using HttpCommon    # For FileResponse(), which serves static files
 using JSON
+using ExcelReaders # require pip install xlrd
 
 app = Morsel.app()
 
