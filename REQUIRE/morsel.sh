@@ -1,1 +1,1 @@
-julia -e "Pkg.add(\"Morsel\")"
+usr/bin/julia -e "Pkg.add(\"Morsel\")"
