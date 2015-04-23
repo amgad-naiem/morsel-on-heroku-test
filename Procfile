@@ -1,0 +1,1 @@
+web: .julia/bin/julia app.jl
