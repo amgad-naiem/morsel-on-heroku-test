@@ -1,1 +1,1 @@
-.julia/bin/julia -e "Pkg.add(\"JSON\")"
+julia -e "Pkg.add(\"JSON\")"

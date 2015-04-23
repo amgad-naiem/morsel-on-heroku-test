@@ -1,1 +1,1 @@
-.julia/bin/julia -e "Pkg.add(\"HttpCommon\")"
+julia -e "Pkg.add(\"HttpCommon\")"
