@@ -2,6 +2,8 @@ using Morsel
 using HttpCommon    # For FileResponse(), which serves static files
 using JSON
 
+
+
 app = Morsel.app()
 
 route(app, GET | POST | PUT, "/") do req, res
@@ -12,4 +14,4 @@ get(app, "/about") do req, res
     "This app is running on Morsel"
 end
 
-start(app, 8000)
+start(app, int(ARGS[1]))
