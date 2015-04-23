@@ -1,1 +1,1 @@
-web: .julia/bin/julia app.jl
+web: julia app.jl
