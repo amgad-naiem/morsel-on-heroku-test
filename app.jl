@@ -10,7 +10,7 @@ route(app, GET | POST | PUT, "/") do req, res
 end
 
 get(app, "/about") do req, res
-    "This app is running on Morsel"
+    "This app is running on Morsel !!"
 end
 
 start(app, int(ARGS[1]))
